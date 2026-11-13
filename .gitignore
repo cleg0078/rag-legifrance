@@ -1,0 +1,35 @@
+# ── Secrets and local configuration ──────────────────────────
+.env
+.env.local
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ── Large / generated data ──────────────────────────────────
+models/
+legi/
+qdrant_storage/
+logs/
+*.tar.gz
+*.gguf
+*.safetensors
+*.bin
+*.pt
+dataset/*.jsonl
+ingestion/cache_articles.json
+finetuning/output/
+llama.cpp/
+
+# ── OS / editor ─────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
